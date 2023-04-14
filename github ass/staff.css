@@ -5,7 +5,7 @@ body{
 
     background: #F6DEFF;
 }
-.inner {
+.ic {
     position: absolute;
     width: 1293px;
     height: 878px;
@@ -15,6 +15,16 @@ body{
     background: #CDCFEE;
     filter: blur(41.5px);
 }
+/*.ic{
+    position: absolute;
+    width: 1293px;
+    height: 878px;
+    left: 74px;
+    top: 73px;
+
+    backgrourgb(43, 44, 54)CFEE;
+    filter: blur(41.5px);
+}*/
 .wizard {
     position: absolute;
     width: 83px;

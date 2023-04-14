@@ -2,23 +2,27 @@
 <html>
     <head>
         <title> wizard house </title>
+        <script src="login.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="login.css" />
     </head>
-    <body background="img1.png">
+    <body>
         <nav><img src="logo.png"></nav>
-        <form action="" method="post">
-            <b class="login"> LOGIN</b>
+        
+        <form action="staff.html" method="post" onclick="return validateForm()">
+            <b class="login"> LogIn</b>
             <div class="email">
               <label for="email"></label>
-              <input class="temail" type="email" placeholder=" Email" name="Email" required>
+              <input class="temail" type="email" placeholder=" Email" name="email" id="email">
             </div>
             <div class="password">
               <label for="password"></label>
-              <input  class="tpassword" type="password" placeholder=" Password" name="psw" required>
+              <input  class="tpassword" type="password" placeholder=" Password" name="password" id="password">
               </div>
-              <button > <a href="staff.html">Login</a></button>
+               <button type="submit" class="button"><a href="staff.html">Login</a></button>
             
           </form>
-          <footer>@ All rights reserved</footer>
+          <footer>@&nbsp;&nbsp;All rights reserved</footer>
+          
     </body>
 </html>
